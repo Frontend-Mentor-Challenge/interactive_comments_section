@@ -1,0 +1,96 @@
+body {
+  font-family: "Rubik", sans-serif;
+  font-size: 16px;
+  background-color: hsl(228, 33%, 97%);
+  display: flex;
+  height: 100vh;
+  width: auto;
+  justify-content: center;
+  align-items: center;
+}
+
+/* GLOBAL CARD */
+.card {
+  display: flex;
+  width: 670px;
+}
+
+.upvotes-section {
+  align-items: center;
+  justify-items: center;
+  display: flex;
+  margin: 25px;
+}
+
+.upvotes-inner {
+  display: block;
+}
+
+.upvotes-inner p {
+  color: hsl(238, 40%, 52%);
+  font-weight: bold;
+}
+
+.upvotes-inner img:hover {
+  transform: scale(1.5);
+  cursor: pointer;
+}
+
+/* CARD TOP INFO */
+.card-top-info {
+  display: flex;
+  align-items: center;
+}
+
+.card-top-info .avatar-icon {
+  width: 30px;
+}
+
+.card-top-info p {
+  padding-left: 10px;
+}
+
+.card-top-info .username {
+  color: hsl(212, 24%, 26%);
+  font-weight: bold;
+}
+
+.card-top-info .message-time {
+  color: hsl(211, 10%, 45%);
+  font-weight: lighter;
+}
+
+/* CARD MESSAGE TEXT */
+.message-text {
+  color: hsl(211, 10%, 45%);
+}
+
+/* BUTTON REPLY */
+.card-top-info button {
+  margin-left: auto;
+  margin-right: 0;
+  justify-items: center;
+  align-items: center;
+  display: flex;
+  color: hsl(238, 40%, 52%);
+  font-weight: bold;
+  border: none;
+  font-family: "Rubik", sans-serif;
+  font-size: 16px;
+  background-color: hsl(228, 33%, 97%);
+  height: fit-content;
+}
+
+.card-top-info button:hover {
+  background-color: hsl(223, 19%, 93%);
+  cursor: pointer;
+  border-radius: 10px;
+  height: fit-content;
+  transform: scale(1.2);
+}
+
+.card-top-info .reply-icon {
+  width: 15px;
+  height: 15px;
+  margin: 8px;
+}
