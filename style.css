@@ -13,6 +13,15 @@ body {
 .card {
   display: flex;
   width: 670px;
+  margin-top: 40px;
+}
+
+/* GLOBAL CARD REPLY */
+.card-reply {
+  margin-left: 70px;
+  margin-top: 40px;
+  display: flex;
+  width: 670px;
 }
 
 .upvotes-section {
@@ -93,4 +102,10 @@ body {
   width: 15px;
   height: 15px;
   margin: 8px;
+}
+
+.replyingto-text {
+  display: flex;
+  color: hsl(238, 40%, 52%);
+  font-weight: bold;
 }
